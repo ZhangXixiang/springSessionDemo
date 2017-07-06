@@ -16,7 +16,7 @@ public class AnnotationConfigDispatcherServletInitializer extends AbstractAnnota
 		encodingFilter.setInitParameter("encoding", "UTF-8");
 		encodingFilter.setInitParameter("forceEncoding", "true");
 		encodingFilter.setAsyncSupported(true);
-		//
+		//测试github
 		encodingFilter.addMappingForUrlPatterns(null, true, "/*");
 	}
 	@Override
